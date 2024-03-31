@@ -5,14 +5,14 @@
 
 This application offers a robust secure messaging service, utilizing advanced encryption and digital signature technologies to ensure the confidentiality, integrity, and authenticity of messages. It combines Serpent encryption in Cipher Block Chaining (CBC) mode, El-Gamal for secure key exchange, and Elliptic Curve Digital Signature Algorithm (ECDSA) for message signing.
 
-## Features
+
 ![Secure Messaging App Interface](https://github.com/RomRL/secure-delivery-messages/blob/main/ScreenShot.png)
 
 ## Link To Deploy
 
 [Secure Delivery Messages Application](https://secure-delivery-messages.onrender.com)
 
-
+## Features
 - **Serpent Encryption**: A symmetric key block cipher that provides high levels of security. Used in CBC mode to ensure that each block of plaintext is XORed with the previous ciphertext block before being encrypted.
 - **El-Gamal Key Exchange**: A secure method for exchanging cryptographic keys over a public channel. It's used to securely share the symmetric key needed for the Serpent encryption/decryption process.
 - **ECDSA Signature**: Provides a mechanism for authenticating the origin and integrity of messages. Each message is signed using ECDSA to ensure that it has not been tampered with and to verify the sender's identity.
