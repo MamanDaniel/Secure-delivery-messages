@@ -28,7 +28,7 @@ This application offers a robust secure messaging service, utilizing advanced en
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/RomRL/secure-delivery-messages.git
+git clone https://github.com/MamanDaniel/Secure-delivery-messages.git
 cd secure-messaging-app
 ```
 
